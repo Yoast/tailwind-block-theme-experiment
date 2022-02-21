@@ -1,0 +1,8 @@
+@media (min-width: 640px) {
+    .wp-block-buttons {
+        margin-top: 2rem
+    }
+    .wp-block-buttons {
+        display: flex
+    }
+} 

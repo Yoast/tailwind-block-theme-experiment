@@ -1,5 +1,12 @@
-tailwind.config = {
+module.exports = {
+	content: [
+		'./*/*.html',
+		'*.php',
+		'./assets/css/*.css',
+		'./assets/js/*.js',
+	],
 	prefix: 'yst-',
+	mode: 'jit',
 	theme: {
 		extend: {
 			colors: {

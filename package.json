@@ -1,0 +1,26 @@
+{
+	"name": "yoast-tailwind-theme",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Tailwind Theme",
+	"author": "Yoast",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"theme"
+	],
+	"devDependencies": {
+		"@wordpress/scripts": "^18.0.1",
+		"autoprefixer": "^10.4.2",
+		"postcss": "^8.4.6",
+		"postcss-cli": "^9.1.0",
+		"tailwindcss": "^3.0.18"
+	},
+	"scripts": {
+		"build": "postcss src/**/*.css --base src --dir build",
+		"format:js": "wp-scripts format-js",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"watch:tailwind": "postcss src/**/*.css --base src --dir build --watch"
+	}
+}

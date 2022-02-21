@@ -1,0 +1,287 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.is-style-yst-large-gray-p {
+	@apply yst-mt-3 yst-text-base yst-text-gray-500 sm:yst-mt-5 sm:yst-text-xl lg:yst-text-lg xl:yst-text-xl;
+}
+
+.is-style-yst-purple-rain-p {
+	@apply yst-text-base yst-font-semibold yst-text-primary-600 yst-uppercase yst-tracking-wide;
+}
+
+.is-style-yst-medium-p {
+	@apply yst-text-lg yst-leading-6 yst-font-medium;
+}
+
+.is-style-yst-smallish-light-p {
+	@apply yst-mt-6 yst-text-gray-500;
+}
+
+.is-style-yst-rounded-border-group {
+	@apply yst-relative yst-p-8 yst-border yst-rounded-2xl yst-shadow-sm yst-flex yst-flex-col;
+}
+
+.is-style-yst-padded-round-group {
+	@apply yst-px-6 yst-py-6 yst-rounded-lg md:yst-py-12 md:yst-px-12 lg:yst-py-16 lg:yst-px-16 xl:yst-flex xl:yst-items-center;
+}
+
+.has-text-align-center {
+	@apply yst-text-center;
+}
+
+.has-primary-50-color {
+	@apply yst-text-primary-50;
+}
+
+.has-primary-100-color {
+	@apply yst-text-primary-100;
+}
+
+.has-primary-200-color {
+	@apply yst-text-primary-200;
+}
+
+.has-primary-300-color {
+	@apply yst-text-primary-300;
+}
+
+.has-primary-300-color {
+	@apply yst-text-primary-300;
+}
+
+.has-primary-500-color {
+	@apply yst-text-primary-500;
+}
+
+.has-primary-600-color {
+	@apply yst-text-primary-600;
+}
+
+.has-primary-700-color {
+	@apply yst-text-primary-700;
+}
+
+.has-primary-700-color {
+	@apply yst-text-primary-700;
+}
+
+.has-primary-800-color {
+	@apply yst-text-primary-800;
+}
+
+.has-yoast_blue-50-color {
+	@apply yst-text-blue-50;
+}
+
+.has-yoast_blue-100-color {
+	@apply yst-text-blue-100;
+}
+
+.has-yoast_blue-200-color {
+	@apply yst-text-blue-200;
+}
+
+.has-yoast_blue-300-color {
+	@apply yst-text-blue-300;
+}
+
+.has-yoast_blue-400-color {
+	@apply yst-text-blue-400;
+}
+
+.has-yoast_blue-500-color {
+	@apply yst-text-blue-500;
+}
+
+.has-yoast_blue-600-color {
+	@apply yst-text-blue-600;
+}
+
+.has-yoast_blue-700-color {
+	@apply yst-text-blue-700;
+}
+
+.has-yoast_blue-800-color {
+	@apply yst-text-blue-900;
+}
+
+.has-yoast_blue-900-color {
+	@apply yst-text-blue-900;
+}
+
+.has-yoast_green-50-color {
+	@apply yst-text-green-50;
+}
+
+.has-yoast_green-100-color {
+	@apply yst-text-green-100;
+}
+
+.has-yoast_green-200-color {
+	@apply yst-text-green-200;
+}
+
+.has-yoast_green-300-color {
+	@apply yst-text-green-300;
+}
+
+.has-yoast_green-400-color {
+	@apply yst-text-green-400;
+}
+
+.has-yoast_green-500-color {
+	@apply yst-text-green-500;
+}
+
+.has-yoast_green-600-color {
+	@apply yst-text-green-600;
+}
+
+.has-yoast_green-700-color {
+	@apply yst-text-green-700;
+}
+
+.has-yoast_green-800-color {
+	@apply yst-text-green-900;
+}
+
+.has-yoast_green-900-color {
+	@apply yst-text-green-900;
+}
+
+.has-gray-50-color {
+	@apply yst-text-gray-50;
+}
+
+.has-gray-500-color {
+	@apply yst-text-gray-500;
+}
+
+.has-primary-50-background-color {
+	@apply yst-bg-primary-50;
+}
+
+.has-primary-100-background-color {
+	@apply yst-bg-primary-100;
+}
+
+.has-primary-200-background-color {
+	@apply yst-bg-primary-200;
+}
+
+.has-primary-300-background-color {
+	@apply yst-bg-primary-300;
+}
+
+.has-primary-300-background-color {
+	@apply yst-bg-primary-300;
+}
+
+.has-primary-500-background-color {
+	@apply yst-bg-primary-500;
+}
+
+.has-primary-600-background-color {
+	@apply yst-bg-primary-600;
+}
+
+.has-primary-700-background-color {
+	@apply yst-bg-primary-700;
+}
+
+.has-primary-700-background-color {
+	@apply yst-bg-primary-700;
+}
+
+.has-primary-800-background-color {
+	@apply yst-bg-primary-800;
+}
+
+.has-yoast_blue-50-background-color {
+	@apply yst-bg-blue-50;
+}
+
+.has-yoast_blue-100-background-color {
+	@apply yst-bg-blue-100;
+}
+
+.has-yoast_blue-200-background-color {
+	@apply yst-bg-blue-200;
+}
+
+.has-yoast_blue-300-background-color {
+	@apply yst-bg-blue-300;
+}
+
+.has-yoast_blue-400-background-color {
+	@apply yst-bg-blue-400;
+}
+
+.has-yoast_blue-500-background-color {
+	@apply yst-bg-blue-500;
+}
+
+.has-yoast_blue-600-background-color {
+	@apply yst-bg-blue-600;
+}
+
+.has-yoast_blue-700-background-color {
+	@apply yst-bg-blue-700;
+}
+
+.has-yoast_blue-800-background-color {
+	@apply yst-bg-blue-900;
+}
+
+.has-yoast_blue-900-background-color {
+	@apply yst-bg-blue-900;
+}
+
+.has-yoast_green-50-background-color {
+	@apply yst-bg-green-50;
+}
+
+.has-yoast_green-100-background-color {
+	@apply yst-bg-green-100;
+}
+
+.has-yoast_green-200-background-color {
+	@apply yst-bg-green-200;
+}
+
+.has-yoast_green-300-background-color {
+	@apply yst-bg-green-300;
+}
+
+.has-yoast_green-400-background-color {
+	@apply yst-bg-green-400;
+}
+
+.has-yoast_green-500-background-color {
+	@apply yst-bg-green-500;
+}
+
+.has-yoast_green-600-background-color {
+	@apply yst-bg-green-600;
+}
+
+.has-yoast_green-700-background-color {
+	@apply yst-bg-green-700;
+}
+
+.has-yoast_green-800-background-color {
+	@apply yst-bg-green-900;
+}
+
+.has-yoast_green-900-background-color {
+	@apply yst-bg-green-900;
+}
+
+.has-gray-50-background-color {
+	@apply yst-bg-gray-50;
+}
+
+.has-gray-500-background-color {
+	@apply yst-bg-gray-500;
+}

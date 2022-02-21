@@ -1,0 +1,3 @@
+.wp-block-button__link {
+	@apply yst-w-full yst-flex yst-items-center yst-justify-center yst-px-8 yst-py-3 yst-border yst-border-transparent yst-text-base yst-font-medium yst-rounded-md md:yst-py-4 md:yst-text-lg md:yst-px-10;
+}

@@ -1,0 +1,11 @@
+h1 {
+	@apply yst-mt-1 yst-block yst-text-4xl yst-tracking-tight yst-font-extrabold sm:yst-text-5xl xl:yst-text-6xl;
+}
+
+h2 {
+	@apply yst-text-3xl yst-leading-8 yst-font-extrabold yst-tracking-tight sm:yst-text-5xl;
+}
+
+h3 {
+	@apply yst-text-2xl yst-font-extrabold yst-text-gray-900 yst-tracking-tight sm:yst-text-3xl yst-mt-2;
+}
